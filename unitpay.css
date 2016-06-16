@@ -1,0 +1,32 @@
+#payment_form_unitpay_api{
+    list-style: outside none none;
+}
+
+#payment_form_unitpay_api ul{
+    list-style: outside none none;
+    padding: 0;
+}
+
+.woocommerce-checkout #payment ul.payment_methods #payment_form_unitpay_api ul li{
+    display: inline-block;
+    min-width: 70px;
+    width: 12.5%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+}
+
+#payment_form_unitpay_api ul li a{
+    display: block;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#payment_form_unitpay_api ul li a.selected{
+    border-color: #DF4433;
+}
+
+#payment_form_unitpay_api ul li a img{
+    margin: 0 !important;
+}
